@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "description": "just an other fizzbuzz variant",
+  "main": "fizzbuzz.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreasOberhofer/fizzbuzz.git"
+  },
+  "author": "Andreas Oberhofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreasOberhofer/fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/AndreasOberhofer/fizzbuzz#readme"
+}
