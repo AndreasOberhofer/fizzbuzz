@@ -7,3 +7,6 @@ const createData = ( n => {
 })
 
 module.exports = fizzbuzz
+module.exports = createData
+
+
