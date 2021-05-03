@@ -14,7 +14,7 @@ describe('data', () => {
 
 describe('functionality', () => {
     it('should change the data, replace the number with fizz when its a multiple of 3', () => {
-        expect(fizzbuzz(7)[2]).toEqual("fizz")
+        expect(fizzbuzz(3)[2]).toEqual("fizz")
     })
 })
 
@@ -22,5 +22,11 @@ describe('functionality', () => {
 describe('functionality', () => {
     it('should change the data, replace the number with buzz when its a multiple of 5', () => {
         expect(fizzbuzz(7)[4]).toEqual("buzz")
+    })
+})
+
+describe('functionality', () => {
+    it('should change the data, replace the number with fizzbuzz when its a multiple of 3 and 5', () => {
+        expect(fizzbuzz(20)[14]).toEqual("fizzbuzz")
     })
 })
