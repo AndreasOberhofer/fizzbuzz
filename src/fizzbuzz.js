@@ -1,16 +1,9 @@
-const _ = require('lodash')
+const createData = require("./createdata");
 
-const fizzbuzz = ( n => {
-    const arr = createData(n)
-    const beu = _.cloneDeep(arr)
-    leu = beu.map( x => { return x % 3 == 0 ? 'fizz' : x })
-    return leu 
-})
+const fizzbuzz = (n) => {
+  return createData(n).map((x) => {
+    return x % 3 == 0 ? "fizz" : x;
+  });
+};
 
-const createData = ( n => {
-    return [...Array(n)].map((_, index) => index + 1)
-})
-
-module.exports = createData
-module.exports.default = fizzbuzz
-
+module.exports = fizzbuzz;
